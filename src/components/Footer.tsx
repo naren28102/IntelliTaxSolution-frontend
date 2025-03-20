@@ -48,7 +48,7 @@ function Footer() {
             <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/in/kumaravel-k-06bb30197"
+                href="https://www.linkedin.com/company/intellitaxsolutions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-400"
