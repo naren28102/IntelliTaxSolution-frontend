@@ -72,7 +72,7 @@ function Guidance() {
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
                 <span className="text-gray-700">
-                  <strong>Payroll Management</strong> – Streamlined payroll solutions for smooth operations.
+                  <strong>Payroll Management</strong> – Streamlined payroll Solution for smooth operations.
                 </span>
               </li>
             </ul>
@@ -143,7 +143,7 @@ function Guidance() {
           <h2 className="text-2xl font-semibold mb-4">Download Resources</h2>
           <p className="text-gray-600 mb-6">
             Download our comprehensive guide for detailed information about our services
-            and business advisory solutions.
+            and business advisory Solution.
           </p>
           <button
             onClick={handleDownload}

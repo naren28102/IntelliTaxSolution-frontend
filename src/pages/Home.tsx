@@ -42,7 +42,7 @@ function Home() {
                     transition={{ duration: 0.5 }}
                     className="text-4xl md:text-6xl font-bold mb-4"
                   >
-                    INTELLITAX SOLUTIONS
+                    INTELLITAX Solution
                   </motion.h1>
                   <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -90,7 +90,7 @@ function Home() {
             </div>
             <h2 className="text-2xl font-bold text-center mb-4">Our Mission</h2>
             <p className="text-gray-600 text-center">
-              Delivering timely and reliable compliance solutions to safeguard your business against legal risks. Maximizing tax efficiency through expert guidance, ensuring legal tax savings for businesses of all sizes.
+              Delivering timely and reliable compliance Solution to safeguard your business against legal risks. Maximizing tax efficiency through expert guidance, ensuring legal tax savings for businesses of all sizes.
             </p>
           </motion.div>
 

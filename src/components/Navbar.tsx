@@ -13,9 +13,9 @@ function Navbar() {
             <img
             src={logo}
             className='h-36 w-36 mr-2'
-            alt='Intellitax Solutions'
+            alt='Intellitax Solution'
             />
-              <span className="text-2xl font-bold text-gray-800">INTELLITAX SOLUTIONS</span>
+              <span className="text-2xl font-bold text-gray-800">INTELLITAX Solution</span>
             </Link>
           </div>
           
