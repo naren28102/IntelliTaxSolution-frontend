@@ -46,17 +46,17 @@ function Contact() {
   const specialists = [
     {
       name: "Arvind Josh",
-      phone: "+91 9710319917",
+      phone: "+91 9445321852",
       specialty: "Audit Specialist"
     },
     {
       name: "Kumaravel",
-      phone: "+91 7904110338",
+      phone: "+91 9445321846",
       specialty: "Accounting & Taxation Specialist"
     },
     {
       name: "Deva Kumaran",
-      phone: "+91 9361383614",
+      phone: "+91 9445321824",
       specialty: "Marketing & Field Executive"
     }
   ];

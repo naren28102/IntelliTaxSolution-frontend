@@ -9,9 +9,9 @@ function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <div className="space-y-3">
-              <a href="tel:+919710319917" className="flex items-center hover:text-gray-300">
+              <a href="tel:+919445321852" className="flex items-center hover:text-gray-300">
                 <Phone size={20} className="mr-2" />
-                +91 9710319917
+                +91 9445321852
               </a>
               <a href="mailto:intellitaxsolution.kad@gmail.com" className="flex items-center hover:text-gray-300">
                 <Mail size={20} className="mr-2" />
