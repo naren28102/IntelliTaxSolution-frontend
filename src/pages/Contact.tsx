@@ -45,17 +45,14 @@ function Contact() {
 
   const specialists = [
     {
-      name: "Arvind Josh",
       phone: "+91 9445321852",
       specialty: "Audit Specialist"
     },
     {
-      name: "Kumaravel",
       phone: "+91 9445321846",
       specialty: "Accounting & Taxation Specialist"
     },
     {
-      name: "Deva Kumaran",
       phone: "+91 9445321824",
       specialty: "Marketing & Field Executive"
     }
