@@ -24,13 +24,13 @@ function Footer() {
             <h3 className="text-xl font-bold mb-4">Our Locations</h3>
             <div className="space-y-3">
               <a 
-                href="https://maps.google.com/?q=501,+Bangalore+Highway+Road,+Sembarambakkam,+Chennai+-+600123"
+                href="https://maps.app.goo.gl/u9XtHV4fbaq5LA3y8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center hover:text-gray-300"
               >
                 <MapPin size={20} className="mr-2" />
-                501, Bangalore Highway Road, Sembarambakkam, Chennai - 600123
+                34/60, Kandappa St, opp. Super Saravana Stores, Perumalpet, Purasaiwakkam, Chennai, Tamil Nadu 600007
               </a>
               <a 
                 href="https://maps.google.com/?q=10,+Angalamman+Kovil+Street,+Govindapuram,+Pattalam,+Perambur+Barracks,+Chennai+-+600012"

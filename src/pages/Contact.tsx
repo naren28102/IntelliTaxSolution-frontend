@@ -60,13 +60,10 @@ function Contact() {
 
   const addresses = [
     {
-      address: "501, Bangalore Highway Road, Sembarambakkam, Chennai - 600123",
-      mapUrl: "https://maps.google.com/?q=501,+Bangalore+Highway+Road,+Sembarambakkam,+Chennai+-+600123"
+      address: "34/60, Kandappa St, opp. Super Saravana Stores, Perumalpet, Purasaiwakkam, Chennai, Tamil Nadu 600007",
+      mapUrl: "https://maps.app.goo.gl/u9XtHV4fbaq5LA3y8"
     },
-    {
-      address: "10, Angalamman Kovil Street, Govindapuram, Pattalam, Perambur Barracks, Chennai - 600012",
-      mapUrl: "https://maps.google.com/?q=10,+Angalamman+Kovil+Street,+Govindapuram,+Pattalam,+Perambur+Barracks,+Chennai+-+600012"
-    }
+    
   ];
 
   return (
