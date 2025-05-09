@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Instagram, Menu, X } from 'lucide-react';
+import { Linkedin, Instagram, Menu, X, Facebook } from 'lucide-react';
 import logo from '../public/logo.png';
 
 function Navbar() {
@@ -34,6 +34,9 @@ function Navbar() {
             <a href="https://www.instagram.com/intellitax.solution" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-600">
               <Instagram size={24} />
             </a>
+            <a href="https://www.facebook.com/share/1CYr9K9CYA/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-600">
+              <Facebook size={24} />
+            </a>
           </div>
           
           {/* Mobile Menu Button */}
@@ -59,6 +62,9 @@ function Navbar() {
               </a>
               <a href="https://www.instagram.com/intellitax.solution" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-600">
                 <Instagram size={24} />
+              </a>
+              <a href="https://www.facebook.com/share/1CYr9K9CYA/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-600">
+                <Facebook size={24} />
               </a>
             </div>
           </div>

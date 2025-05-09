@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Linkedin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 function Footer() {
   return (
@@ -63,6 +63,16 @@ function Footer() {
               >
                 <Instagram size={24} />
               </a>
+
+              <a
+                href="https://www.facebook.com/share/1CYr9K9CYA/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-pink-400"
+              >
+                <Facebook size={24} />
+              </a>
+          
             </div>
           </div>
         </div>

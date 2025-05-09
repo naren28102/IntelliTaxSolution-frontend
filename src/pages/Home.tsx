@@ -111,6 +111,58 @@ function Home() {
           </motion.div>
         </div>
       </div>
+
+      {/* Image Row Section */}
+      <div className="overflow-hidden py-12 bg-white">
+  <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Clients!</h2>
+  <div className="relative w-full">
+    <div className="marquee">
+      {[...Array(2)].flatMap(() =>
+        [
+          { src: "a1.png", title: "SMART BOOKS" },
+          { src: "a2.png", title: "SHOBANAANITHINTHREADS DESIGN(OPC) PRIVATE LIMITED" },
+          { src: "a3.png", title: "DMH INDIAN INFRA PRIVATE LIMITED" },
+          { src: "a4.png", title: "MAHA RPS LADDERS PRIVATE LIMITED" },
+          { src: "a6.png", title: "ARMOR SAFETY PRIVATE LIMITED" },
+          { src: "a5.png", title: "ARI AESTHETHICS" },
+          
+        ].map((client, index) => (
+          <div
+            key={`${client.title}-${index}`}
+            className="flex flex-col items-center w-60 flex-shrink-0 px-6 hover:scale-105 transition duration-300"
+          >
+            <img
+              src={client.src}
+              alt={client.title}
+              className="w-48 h-48 object-contain rounded-lg shadow-md hover:shadow-xl hover:ring-4 hover:ring-gray-300"
+            />
+            <p className="mt-2 text-center text-sm text-gray-700 font-medium">{client.title}</p>
+          </div>
+        ))
+      )}
+    </div>
+  </div>
+</div>
+
+
+
+
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Clients!</h2>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    {["/public/a4.png", "/a1.png", "/a2.png", "/a6.png"].map((src, index) => (
+      <img
+        key={index}
+        src={src}
+        alt={`Image ${index + 1}`}
+        className="w-full h-48 object-cover rounded-lg shadow-md p-2 transition transform duration-300 hover:scale-105 hover:shadow-xl hover:ring-4 hover:ring-gray-300"
+      />
+    ))}
+  </div>
+</div> */}
+
+      <div></div>
+
     </div>
   );
 }
